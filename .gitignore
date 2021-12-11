@@ -1,0 +1,12 @@
+/app
+node_modules
+.next
+**/.DS_Store
+.env
+.env.local
+out
+.eslintrc.json
+.eslintignore
+.prettierrc.json
+yarn.lock
+package-lock.json
