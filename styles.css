@@ -1,0 +1,42 @@
+:root {
+  --border-normal: #d3dae4 !important;
+	--border-normal-alt: #a2b5cd !important;
+	--border-subdued: #f0f4f9 !important;
+
+	--foreground-normal: #4f5464 !important; 
+	--foreground-normal-alt: #172940 !important; 
+	--foreground-subdued: #a2b5cd !important;
+	--foreground-inverted: #fff !important;
+
+	--background-normal: #f0f4f9 !important;
+	--background-normal-alt: #e4eaf1 !important;
+	--background-subdued: #f7fafc !important;
+	--background-highlight: #f7f9fd !important;
+	--background-page: #ffffff !important;
+	--background-input: #ffffff !important;
+	--background-page-rgb: 255, 255, 255 !important;
+	--background-inverted: #263238 !important;
+
+	--card-face-color: #fafcfd !important;
+	--card-shadow-color: 23, 41, 64 !important;
+	--card-shadow: 0px 0px 6px 0px rgba(var(--card-shadow-color), 0.2) !important;
+	--overlay-color: rgba(38, 50, 56, 0.9) !important;
+
+	@include generate-colors($color-mapping, $light-theme-tint, $light-theme-shade);
+
+	--purple-alt: var(--purple-10) !important;
+	--blue-alt: var(--blue-10) !important;
+	--green-alt: var(--green-10) !important;
+	--yellow-alt: var(--yellow-10) !important;
+	--orange-alt: var(--orange-10) !important;
+	--red-alt: var(--red-10) !important;
+	--primary-alt: var(--green-10) !important;
+	--secondary-alt: var(--blue-10) !important;
+	--success-alt: var(--green-10) !important;
+	--warning-alt: var(--yellow-10) !important;
+	--danger-alt: var(--red-10) !important;
+
+	.alt-colors {
+		--background-subdued: var(--background-page) !important;
+	}
+}
